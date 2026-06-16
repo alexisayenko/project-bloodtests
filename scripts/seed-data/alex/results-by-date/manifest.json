@@ -238,5 +238,13 @@
     "items": 43,
     "mappedItems": 43,
     "numericItems": 43
+  },
+  {
+    "date": "2026-04-22",
+    "place": "NeoGenesis",
+    "file": "results-by-date\\2026-04-22__neogenesis.json",
+    "items": 11,
+    "mappedItems": 11,
+    "numericItems": 11
   }
 ]
