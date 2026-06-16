@@ -3,7 +3,10 @@
     "allow": [
       "WebFetch(domain:github.com)",
       "WebFetch(domain:alexisayenko.github.io)",
-      "WebFetch(domain:loinc.org)"
+      "WebFetch(domain:loinc.org)",
+      "WebSearch",
+      "WebFetch(domain:healthicons.org)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }
