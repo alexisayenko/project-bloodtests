@@ -1,0 +1,139 @@
+{
+  "date": "2026-04-01",
+  "labName": "NeoGenesis",
+  "sourceFile": "2026-04-NeoGenesis-1.pdf",
+  "items": [
+    {
+      "symbol": "GLU",
+      "analysis": "Glucose Serum",
+      "loinc": "2339-0",
+      "rawValue": "78.59",
+      "value": 78.59,
+      "valueQualifier": null,
+      "unit": "mg/dL",
+      "refText": "74.00 - 110.00",
+      "refMin": 74.0,
+      "refMax": 110.0
+    },
+    {
+      "symbol": "Vit D",
+      "analysis": "25-OH Vitamin D",
+      "loinc": "49054-0",
+      "rawValue": "20.56",
+      "value": 20.56,
+      "valueQualifier": null,
+      "unit": "ng/mL",
+      "refText": "30.00 - 80.00",
+      "refMin": 30.0,
+      "refMax": 80.0
+    },
+    {
+      "symbol": "TSH",
+      "analysis": "Thyroid-Stimulating Hormone",
+      "loinc": "11580-8",
+      "rawValue": "4.266",
+      "value": 4.266,
+      "valueQualifier": null,
+      "unit": "mIU/L",
+      "refText": "0.400 - 4.000",
+      "refMin": 0.4,
+      "refMax": 4.0
+    },
+    {
+      "symbol": "FSH",
+      "analysis": "Follicle-Stimulating Hormone",
+      "loinc": "15067-2",
+      "rawValue": "3.72",
+      "value": 3.72,
+      "valueQualifier": null,
+      "unit": "mIU/mL",
+      "refText": "1.50 - 12.40",
+      "refMin": 1.5,
+      "refMax": 12.4
+    },
+    {
+      "symbol": "LH",
+      "analysis": "Luteinizing Hormone",
+      "loinc": "10501-5",
+      "rawValue": "4.07",
+      "value": 4.07,
+      "valueQualifier": null,
+      "unit": "mIU/mL",
+      "refText": "1.70 - 8.60",
+      "refMin": 1.7,
+      "refMax": 8.6
+    },
+    {
+      "symbol": "E2",
+      "analysis": "Estradiol",
+      "loinc": "2243-4",
+      "rawValue": "21.76",
+      "value": 21.76,
+      "valueQualifier": null,
+      "unit": "pg/mL",
+      "refText": "10.00 - 40.00",
+      "refMin": 10.0,
+      "refMax": 40.0
+    },
+    {
+      "symbol": "PRL",
+      "analysis": "Total Prolactin",
+      "loinc": "15081-3",
+      "rawValue": "531.79",
+      "value": 531.79,
+      "valueQualifier": null,
+      "unit": "mIU/L",
+      "refText": "53.00 - 360.00",
+      "refMin": 53.0,
+      "refMax": 360.0
+    },
+    {
+      "symbol": null,
+      "analysis": "Insulin",
+      "loinc": "20448-7",
+      "rawValue": "12.45",
+      "value": 12.45,
+      "valueQualifier": null,
+      "unit": "μIU/mL",
+      "refText": "2.60 - 24.90",
+      "refMin": 2.6,
+      "refMax": 24.9
+    },
+    {
+      "symbol": "SHBG",
+      "analysis": "Sex Hormone-Binding Globulin",
+      "loinc": "2942-1",
+      "rawValue": "57.5",
+      "value": 57.5,
+      "valueQualifier": null,
+      "unit": "nmol/L",
+      "refText": "14.5 - 95.0",
+      "refMin": 14.5,
+      "refMax": 95.0
+    },
+    {
+      "symbol": "FT",
+      "analysis": "Free Testosterone",
+      "loinc": "2991-8",
+      "rawValue": "49.7",
+      "value": 49.7,
+      "valueQualifier": null,
+      "unit": "pg/mL",
+      "refText": "40.50 - 176.40",
+      "refMin": 40.5,
+      "refMax": 176.4
+    },
+    {
+      "symbol": "T",
+      "analysis": "Testosterone (Total)",
+      "loinc": "14913-8",
+      "rawValue": "11.67",
+      "value": 11.67,
+      "valueQualifier": null,
+      "unit": "nmol/L",
+      "refText": "9.20 - 31.80",
+      "refMin": 9.2,
+      "refMax": 31.8
+    }
+  ]
+}

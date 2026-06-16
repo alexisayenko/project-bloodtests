@@ -230,5 +230,13 @@
     "items": 40,
     "mappedItems": 40,
     "numericItems": 40
+  },
+  {
+    "date": "2026-04-01",
+    "labName": "NeoGenesis",
+    "file": "results-by-date\\2026-04-01__neogenesis.json",
+    "items": 11,
+    "mappedItems": 11,
+    "numericItems": 11
   }
 ]
