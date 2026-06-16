@@ -2,3 +2,5 @@ node_modules/
 dist/
 .vs/
 *.user
+__pycache__/
+.claude/launch.json
