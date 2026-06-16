@@ -14,7 +14,9 @@
  *   node scripts/seed.mjs --user natalia e3b4df38-...            # seed natalia
  */
 
-import { createClient } from '@supabase/supabase-js';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.resolve('../frontend/package.json'));
+const { createClient } = require('@supabase/supabase-js');
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
@@ -57,6 +59,16 @@ const RESULTS_DIR = join(DATA_DIR, 'results-by-date');
 
 async function seed() {
   console.log(`Seeding data for user ${TARGET_USER_ID}...`);
+
+  // 0. Clean existing data for this user
+  console.log('Cleaning existing data...');
+  const { error: delRes } = await sb.from('results').delete().eq('user_id', TARGET_USER_ID);
+  if (delRes) console.error('  Error deleting results:', delRes.message);
+  const { error: delSess } = await sb.from('test_sessions').delete().eq('user_id', TARGET_USER_ID);
+  if (delSess) console.error('  Error deleting sessions:', delSess.message);
+  const { error: delPlan } = await sb.from('planned_tests').delete().eq('user_id', TARGET_USER_ID);
+  if (delPlan) console.error('  Error deleting planned:', delPlan.message);
+  console.log('  Cleaned.');
 
   // 1. Read manifest
   const manifest = JSON.parse(readFileSync(join(RESULTS_DIR, 'manifest.json'), 'utf-8'));
